@@ -1,0 +1,5 @@
+[console_scripts]
+detection_node = my_turtlebot3.detect:main
+navigator_node = my_turtlebot3.nav:main
+servo_control_node = my_turtlebot3.servor:main
+

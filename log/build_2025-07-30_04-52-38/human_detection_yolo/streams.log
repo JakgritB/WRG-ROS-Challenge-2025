@@ -1,0 +1,22 @@
+[1.087s] Invoking command in '/home/jakgritb/turtlebot3_ws/src/human_detection_yolo': PYTHONPATH=/home/jakgritb/turtlebot3_ws/build/human_detection_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_detection_yolo build --build-base /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build install --record /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/install.log --single-version-externally-managed install_data
+[1.279s] running egg_info
+[1.279s] writing ../../build/human_detection_yolo/human_detection_yolo.egg-info/PKG-INFO
+[1.280s] writing dependency_links to ../../build/human_detection_yolo/human_detection_yolo.egg-info/dependency_links.txt
+[1.280s] writing entry points to ../../build/human_detection_yolo/human_detection_yolo.egg-info/entry_points.txt
+[1.280s] writing requirements to ../../build/human_detection_yolo/human_detection_yolo.egg-info/requires.txt
+[1.280s] writing top-level names to ../../build/human_detection_yolo/human_detection_yolo.egg-info/top_level.txt
+[1.281s] reading manifest file '../../build/human_detection_yolo/human_detection_yolo.egg-info/SOURCES.txt'
+[1.282s] writing manifest file '../../build/human_detection_yolo/human_detection_yolo.egg-info/SOURCES.txt'
+[1.282s] running build
+[1.282s] running build_py
+[1.282s] running install
+[1.283s] running install_lib
+[1.284s] running install_data
+[1.284s] running install_egg_info
+[1.285s] removing '/home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.286s] Copying ../../build/human_detection_yolo/human_detection_yolo.egg-info to /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo-0.0.0-py3.10.egg-info
+[1.286s] running install_scripts
+[1.303s] Installing human_subscriber script to /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/human_detection_yolo
+[1.304s] Installing yolo_detector script to /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/human_detection_yolo
+[1.304s] writing list of installed files to '/home/jakgritb/turtlebot3_ws/build/human_detection_yolo/install.log'
+[1.336s] Invoked command in '/home/jakgritb/turtlebot3_ws/src/human_detection_yolo' returned '0': PYTHONPATH=/home/jakgritb/turtlebot3_ws/build/human_detection_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_detection_yolo build --build-base /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build install --record /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+# Human Detection Parameters
+yolo_detector:
+  ros__parameters:
+    model_path: "yolov8n.pt"
+    confidence_threshold: 0.5
+    image_topic: "/camera/image_raw"
+    detection_topic: "/human_detections"
+
+human_detection_subscriber:
+  ros__parameters:
+    detection_topic: "/human_detections"
+    max_warning_level: 10
+    warning_increment: 1
+    warning_decrement: 2
+
+# Camera Parameters for TurtleBot3
+camera:
+  ros__parameters:
+    # Raspberry Pi Camera settings
+    video_device: "/dev/video0"
+    pixel_format: "YUYV"
+    image_size: [640, 480]
+    framerate: 30
+    camera_name: "turtlebot3_camera"
+    camera_info_url: ""

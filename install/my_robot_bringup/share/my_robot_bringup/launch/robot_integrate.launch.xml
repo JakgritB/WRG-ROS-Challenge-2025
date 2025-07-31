@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg = "my_turtlebot3" exec="navigator_node"/>
+    <node pkg = "my_turtlebot3" exec="detection_node"/>
+    <node pkg = "my_turtlebot3" exec="servo_control_node"/>
+</launch>

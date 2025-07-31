@@ -1,0 +1,4 @@
+[console_scripts]
+human_subscriber = human_detection_yolo.human_subscriber:main
+yolo_detector = human_detection_yolo.yolo_detector:main
+

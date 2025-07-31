@@ -1,0 +1,48 @@
+[1.848s] Invoking command in '/home/jakgritb/turtlebot3_ws/src/human_detection_yolo': PYTHONPATH=/home/jakgritb/turtlebot3_ws/build/human_detection_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_detection_yolo build --build-base /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build install --record /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/install.log --single-version-externally-managed install_data
+[2.094s] running egg_info
+[2.095s] creating ../../build/human_detection_yolo/human_detection_yolo.egg-info
+[2.095s] writing ../../build/human_detection_yolo/human_detection_yolo.egg-info/PKG-INFO
+[2.095s] writing dependency_links to ../../build/human_detection_yolo/human_detection_yolo.egg-info/dependency_links.txt
+[2.095s] writing entry points to ../../build/human_detection_yolo/human_detection_yolo.egg-info/entry_points.txt
+[2.095s] writing requirements to ../../build/human_detection_yolo/human_detection_yolo.egg-info/requires.txt
+[2.095s] writing top-level names to ../../build/human_detection_yolo/human_detection_yolo.egg-info/top_level.txt
+[2.095s] writing manifest file '../../build/human_detection_yolo/human_detection_yolo.egg-info/SOURCES.txt'
+[2.097s] reading manifest file '../../build/human_detection_yolo/human_detection_yolo.egg-info/SOURCES.txt'
+[2.098s] writing manifest file '../../build/human_detection_yolo/human_detection_yolo.egg-info/SOURCES.txt'
+[2.098s] running build
+[2.098s] running build_py
+[2.099s] creating /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build
+[2.099s] creating /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib
+[2.099s] creating /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo
+[2.099s] copying human_detection_yolo/human_subscriber.py -> /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo
+[2.099s] copying human_detection_yolo/yolo_detector.py -> /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo
+[2.099s] copying human_detection_yolo/__init__.py -> /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo
+[2.099s] copying human_detection_yolo/simple_detector.py -> /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo
+[2.099s] running install
+[2.099s] running install_lib
+[2.099s] creating /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo
+[2.099s] copying /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo/human_subscriber.py -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo
+[2.099s] copying /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo/yolo_detector.py -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo
+[2.099s] copying /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo/__init__.py -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo
+[2.099s] copying /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build/lib/human_detection_yolo/simple_detector.py -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo
+[2.100s] byte-compiling /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo/human_subscriber.py to human_subscriber.cpython-310.pyc
+[2.101s] byte-compiling /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo/yolo_detector.py to yolo_detector.cpython-310.pyc
+[2.102s] byte-compiling /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo/__init__.py to __init__.cpython-310.pyc
+[2.102s] byte-compiling /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo/simple_detector.py to simple_detector.cpython-310.pyc
+[2.103s] running install_data
+[2.103s] creating /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/ament_index
+[2.103s] creating /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/ament_index/resource_index
+[2.103s] creating /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/ament_index/resource_index/packages
+[2.103s] copying resource/human_detection_yolo -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/ament_index/resource_index/packages
+[2.103s] copying package.xml -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/human_detection_yolo
+[2.104s] creating /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/human_detection_yolo/launch
+[2.104s] copying launch/human_detection.launch.py -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/human_detection_yolo/launch
+[2.104s] creating /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/human_detection_yolo/config
+[2.104s] copying config/params.yaml -> /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/share/human_detection_yolo/config
+[2.104s] running install_egg_info
+[2.107s] Copying ../../build/human_detection_yolo/human_detection_yolo.egg-info to /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages/human_detection_yolo-0.0.0-py3.10.egg-info
+[2.107s] running install_scripts
+[2.136s] Installing human_subscriber script to /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/human_detection_yolo
+[2.136s] Installing yolo_detector script to /home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/human_detection_yolo
+[2.136s] writing list of installed files to '/home/jakgritb/turtlebot3_ws/build/human_detection_yolo/install.log'
+[2.170s] Invoked command in '/home/jakgritb/turtlebot3_ws/src/human_detection_yolo' returned '0': PYTHONPATH=/home/jakgritb/turtlebot3_ws/build/human_detection_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakgritb/turtlebot3_ws/install/human_detection_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_detection_yolo build --build-base /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/build install --record /home/jakgritb/turtlebot3_ws/build/human_detection_yolo/install.log --single-version-externally-managed install_data
