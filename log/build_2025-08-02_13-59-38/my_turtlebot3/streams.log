@@ -1,0 +1,38 @@
+[1.630s] Invoking command in '/home/jakgritb/turtlebot3_ws/src/turtlebot3/my_turtlebot3': PYTHONPATH=/home/jakgritb/turtlebot3_ws/build/my_turtlebot3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_turtlebot3 build --build-base /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build install --record /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/install.log --single-version-externally-managed install_data
+[1.937s] running egg_info
+[1.938s] writing ../../../build/my_turtlebot3/my_turtlebot3.egg-info/PKG-INFO
+[1.939s] writing dependency_links to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/dependency_links.txt
+[1.939s] writing entry points to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/entry_points.txt
+[1.939s] writing requirements to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/requires.txt
+[1.939s] writing top-level names to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/top_level.txt
+[1.941s] reading manifest file '../../../build/my_turtlebot3/my_turtlebot3.egg-info/SOURCES.txt'
+[1.942s] writing manifest file '../../../build/my_turtlebot3/my_turtlebot3.egg-info/SOURCES.txt'
+[1.942s] running build
+[1.943s] running build_py
+[1.943s] copying my_turtlebot3/nav_skip.py -> /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3
+[1.943s] copying my_turtlebot3/nav.py -> /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3
+[1.944s] copying my_turtlebot3/nav_hotel.py -> /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3
+[1.944s] copying my_turtlebot3/test._nav.py -> /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3
+[1.944s] copying my_turtlebot3/detect.py -> /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3
+[1.944s] running install
+[1.944s] running install_lib
+[1.945s] copying /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3/nav_skip.py -> /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3
+[1.946s] copying /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3/nav.py -> /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3
+[1.946s] copying /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3/nav_hotel.py -> /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3
+[1.946s] copying /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3/test._nav.py -> /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3
+[1.946s] copying /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3/detect.py -> /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3
+[1.947s] byte-compiling /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3/nav_skip.py to nav_skip.cpython-310.pyc
+[1.948s] byte-compiling /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3/nav.py to nav.cpython-310.pyc
+[1.950s] byte-compiling /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3/nav_hotel.py to nav_hotel.cpython-310.pyc
+[1.951s] byte-compiling /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3/test._nav.py to test._nav.cpython-310.pyc
+[1.953s] byte-compiling /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3/detect.py to detect.cpython-310.pyc
+[1.954s] running install_data
+[1.954s] running install_egg_info
+[1.956s] removing '/home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3-0.0.0-py3.10.egg-info' (and everything under it)
+[1.957s] Copying ../../../build/my_turtlebot3/my_turtlebot3.egg-info to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3-0.0.0-py3.10.egg-info
+[1.958s] running install_scripts
+[1.983s] Installing detection_node script to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/my_turtlebot3
+[1.983s] Installing navigator_node script to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/my_turtlebot3
+[1.983s] Installing servo_control_node script to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/my_turtlebot3
+[1.984s] writing list of installed files to '/home/jakgritb/turtlebot3_ws/build/my_turtlebot3/install.log'
+[2.016s] Invoked command in '/home/jakgritb/turtlebot3_ws/src/turtlebot3/my_turtlebot3' returned '0': PYTHONPATH=/home/jakgritb/turtlebot3_ws/build/my_turtlebot3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_turtlebot3 build --build-base /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build install --record /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/install.log --single-version-externally-managed install_data

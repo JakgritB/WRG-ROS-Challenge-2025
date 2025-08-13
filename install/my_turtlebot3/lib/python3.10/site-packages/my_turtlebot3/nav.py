@@ -38,24 +38,27 @@ class NavigationNode(Node):
         self.waypoint_reached_pub = self.create_publisher(Empty, '/waypoint_reached', 20)
         self.end_process_pub = self.create_publisher(Empty, '/task_completed', 20)
         self.servo_sub = self.create_subscription(Empty, '/servo_completed', self.wait_for_servo, 20)
-        self.camera_sub = self.create_subscription(Empty, '/person_no_detected', self.wait_for_camera, 20)
-    
-        self.goal_pose = [
-        [0.8059219121932983, -0.17383164167404175, 0.0, 0.0, 0.0, 0.004246642976211978, 0.9999909829710629], #point1 drop 0
-        [2.5960423946380615, -0.15482759475708008, 0.0, 0.0, 0.0,-0.7070412982237968, 0.707172258085686], #point2 ways 1
+        self.camera_sub = self.create_subscription(Empty, '/person_no_detect', self.wait_for_camera, 20)
 
-        [2.455105781555176, -1.4594608640670776, 0.0, 0.0, 0.0, -0.7085511291426619, 0.705659476936758], # point 3 drop 2
-        [2.4662322998046875, -2.0100863952636719, 0.0, 0.0, 0.0, -0.7128670455634724, 0.7012992052965744],  # point 4 drop 3
-        
-        [2.4487218856811523, -2.2100892066955566, 0.0, 0.0, 0.0, -0.9999983781670552, 0.0018010172845805761 ], # point 5 ways 4
-        [1.0779128074645996, -1.9279274940490723, 0.0, 0.0, 0.0, -0.9014558827851237,  0.43287098700662924],  # point 6 drop 5
-        
-                
-        [0.40123450756073, -1.932122826576233, 0.0, 0.0, 0.0, 0.912893420940346,0.40819799363033654], # point 7 drop 6
-        [0.43536388874053955,-1.9075031280517578, 0.0, 0.0, 0.0, 0.9089338852665702, 0.4169402741571237],  # point 8 ways 7
-        
-        
-        [0.0,        0.0,       0.0, 0.0, 0.0, 0.0, 0.0]  # กลับจุดเริ่ม
+          # self.goal_pose = [
+        #     [0.7910786271095276, 0.0712955892086029, 0.2, 0.0, 0.0, 0.0, 0.0],
+        #     [2.644859790802002, -0.4215397834777832, 0.2, 0.0, 0.0, 0.0, -1.57],
+        #     [2.6608970165252686, -1.3731415271759033, 0.2, 0.0, 0.0, 0.000, -1.57],
+        #     [2.6590499877929688, -1.7423019409179688, 0.2, 0.0, 0.0, 0.000, -1.57],
+        #     [1.0085116624832153, -2.196805715560913, 0.2, 0.0, 0.0, 0.000, -3.14],
+        #     [0.6081547737121582, -2.1948025226593018, 0.2, 0.0, 0.0, 0.000, -3.14],
+        #     [0.0006335973739624023, 0.049252718687057495, 0.2, 0.0, 0.0, 0.0, 1] 
+        # ]
+
+        self.goal_pose = [
+            [0.8819569230079651, 0.007189632393419743, 0.2, 0.0, 0.0, 0.0, 0.0],    # Drop  0
+            [1.7217068481445312, -0.5569775390625, 0.2, 0.0, 0.0, 0.0, 1.57],       # Drop  1 เอาลงมา    เดิม y    =   -0.5269775390625
+            [1.7067776918411255, -0.9723507165908813, 0.2, 0.0, 0.0, 0.0, 0.0],     # path  2
+            [2.5202677249908447, -1.64878890991211, 0.2, 0.0, 0.0, 0.0, -1.57],    # Drop  3 ขยับขวา    เดิม x   =   2.5095596313476562
+            [2.5202677249908447, -1.9575897979736328, 0.2, 0.0, 0.0, 0.0, -1.57],   # Drop  4 ขยับขวา    เดิม x   =   2.5202677249908447
+            [0.9738893508911133, -2.141033796310425, 0.2, 0.0, 0.0, 0.0, -3.14],    # Drop  5 ขยับลง     เดิม y   =   -2.162033796310425
+            [0.5660393238067627, -2.1404385375976562, 0.2, 0.0, 0.0, 0.0, -3.14],   # Drop  6 ขยับลง     เดิม y   =   -2.1604385375976562
+            [-0.013216020539402962, 0.02136564441025257, 0.2, 0.0, 0.0, 0.0, 0.0]   # Start 7
         ]
 
         self.start_navigation()
@@ -78,7 +81,7 @@ class NavigationNode(Node):
 
     def start_navigation(self):
         for i, pose in enumerate(self.goal_pose):
-            q_x, q_y, q_z, q_w = tf_transformations.quaternion_from_euler(pose[3], pose[4], pose[5])
+            q_x, q_y, q_z, q_w = tf_transformations.quaternion_from_euler(0,0, pose[6])
             goal_pose = PoseStamped()
             goal_pose.header.frame_id = 'map'
             goal_pose.header.stamp = self.navigator.get_clock().now().to_msg()
@@ -97,7 +100,9 @@ class NavigationNode(Node):
                 feedback = self.navigator.getFeedback()
                 # self.get_logger().info(str(feedback))  # Optional
 
-            if i in [0,2,3,5,6]:
+            if i in [0,1,3,4,5,6]:  # ถามจุุดที่หนุด
+                time.sleep(3.0)  # <- หยุดรอจริงๆ 3 วินาที
+
                 self.waypoint_reached_pub.publish(Empty())
                 self.waypoints+=1
                 self.get_logger().info(f"Reached waypoint {self.waypoints}, waiting for servo or camera")

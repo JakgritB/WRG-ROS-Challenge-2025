@@ -1,0 +1,24 @@
+running egg_info
+writing ../../../build/my_turtlebot3/my_turtlebot3.egg-info/PKG-INFO
+writing dependency_links to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/dependency_links.txt
+writing entry points to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/entry_points.txt
+writing requirements to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/requires.txt
+writing top-level names to ../../../build/my_turtlebot3/my_turtlebot3.egg-info/top_level.txt
+reading manifest file '../../../build/my_turtlebot3/my_turtlebot3.egg-info/SOURCES.txt'
+writing manifest file '../../../build/my_turtlebot3/my_turtlebot3.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_turtlebot3/nav.py -> /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3
+running install
+running install_lib
+copying /home/jakgritb/turtlebot3_ws/build/my_turtlebot3/build/lib/my_turtlebot3/nav.py -> /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3
+byte-compiling /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3/nav.py to nav.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/my_turtlebot3/my_turtlebot3.egg-info to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/python3.10/site-packages/my_turtlebot3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detection_node script to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/my_turtlebot3
+Installing navigator_node script to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/my_turtlebot3
+Installing servo_control_node script to /home/jakgritb/turtlebot3_ws/install/my_turtlebot3/lib/my_turtlebot3
+writing list of installed files to '/home/jakgritb/turtlebot3_ws/build/my_turtlebot3/install.log'

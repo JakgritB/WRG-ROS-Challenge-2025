@@ -14,7 +14,9 @@ my_turtlebot3/fake_nav.py
 my_turtlebot3/fake_node.py
 my_turtlebot3/nav.py
 my_turtlebot3/nav_hotel.py
+my_turtlebot3/nav_skip.py
 my_turtlebot3/servor.py
+my_turtlebot3/test._nav.py
 resource/my_turtlebot3
 test/test_copyright.py
 test/test_flake8.py
