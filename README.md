@@ -14,16 +14,30 @@
   </tr>
 </table>
 
-# TurtleBot3 ROS2 Navigation & SLAM Project
+## Project Summary
 
-This repository contains my work for the WRG ROS League 2025, where I developed a ROS2-based autonomous robotics system involving SLAM, navigation, and object detection.
+This project implements a complete autonomous navigation system for TurtleBot3 using **ROS2**, including:
+
+- SLAM (Cartographer)
+- Navigation2 path planning
+- Real-time object detection (YOLOv8)
+- On-robot servo control
+- Custom Python-based navigation controllers (with/without detection)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1b908520-321c-469f-b875-d791470af7d9" width="300" alt="Award-ROS-League-ROS-TurtleBOT3 (1)_page-0001">
 </p>
 
-This project also relates to my role as Team Lead & Robot Operator, where our team achieved 1st Runner-Up in the WRG ROS League TurtleBot3 competition
+The system was developed for the **WRG ROS League 2025**, where my team achieved **1st Runner-Up**, and I worked as **Team Lead & Robot Operator**.
 (My name is Jakgrit Boottapak)
+
+## Tech Stack
+
+**Robotics:** ROS2 Humble, Nav2, Cartographer, TF2 
+**AI / Detection:** YOLOv8n (PyTorch)  
+**Languages:** Python, C++  
+**Hardware:** TurtleBot3, RPi, camera (v4l2), servo motors  
+**Tools:** RViz2, SSH, teleop, ROS2 Launch, YAML configs
 
 ## Prerequisites
 
