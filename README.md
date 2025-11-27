@@ -212,3 +212,11 @@ sudo apt install ros-humble-navigation2*
 # Camera
 sudo apt install ros-humble-v4l2-camera
 ```
+
+# Credits
+
+This robot was developed by <br/>
+- Jakgrit Boottapak
+- Punnawich Saengsuriyakard
+- Sirawit Polkhumkaew
+- Phuwarit Bunbanlu (Mentor)
