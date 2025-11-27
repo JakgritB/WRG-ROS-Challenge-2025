@@ -1,8 +1,29 @@
 # NewLine-TurtleBot3
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/72c177b4-21da-463c-bbea-22e4efe211c7" width="250" alt="รูปที่ 1">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/9219cd80-66af-4732-b242-d0851fef386e" width="250" alt="รูปที่ 2">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e0fd5f2e-31d7-4711-94ca-0c6d87b8575b" width="250" alt="รูปที่ 3">
+    </td>
+  </tr>
+</table>
+
 # TurtleBot3 ROS2 Navigation & SLAM Project
 
-This repository contains the implementation for TurtleBot3 autonomous navigation with SLAM (Simultaneous Localization and Mapping) capabilities using ROS2.
+This repository contains my work for the WRG ROS League 2025, where I developed a ROS2-based autonomous robotics system involving SLAM, navigation, and object detection.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b908520-321c-469f-b875-d791470af7d9" width="300" alt="Award-ROS-League-ROS-TurtleBOT3 (1)_page-0001">
+</p>
+
+This project also relates to my role as Team Lead & Robot Operator, where our team achieved 1st Runner-Up in the WRG ROS League TurtleBot3 competition
+(My name is Jakgrit Boottapak)
 
 ## Prerequisites
 
